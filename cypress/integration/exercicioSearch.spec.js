@@ -3,7 +3,7 @@
 describe('Exercicio - Funcionalidade da caixa de pesquisa', () => {
 
     beforeEach(() => {
-        cy.visit('http://lojaebac.ebaconline.art.br/minha-conta/')
+        cy.visit('minha-conta/')
     });
 
     it('teste busca', () => {
